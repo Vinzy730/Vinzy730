@@ -6,8 +6,8 @@ I am a undergraduate student at **University of North Carolina Chapel Hill**. I 
 ##### COMP110: Basics of Coding and Computer Principals, Foundational Course
 ##### COMP290: Basic Software Development Tools, Special Topics
 
-### Tools and Programming Languages
-#### Tools and Programs I am confident in using:
+### Tools, Programming Languages, Skills
+#### Tools and Programs:
 ###### Python, Pandas, Scikit-Learn, Java, WPILIB, Docker, Git
 #### Technical Skills:
 ###### Hardware Installation, Server Creation
