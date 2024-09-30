@@ -1,16 +1,13 @@
-## Hi there 👋
+## About Me
+I am a undergraduate student at **University of North Carolina Chapel Hill**. I am planning on majoring in *Computer Science* and exploring topics such as *cybersecurity*, *networks like server racks*, or *game development*.  I like to creating backend, developing complex interactive systems, and managing my personal network. In my downtime I like to play casual games like Minecraft or read novels.
 
-<!--
-**Vinzy730/Vinzy730** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### Classes
+####Some classes I am currently attending and what they taught:
+#####COMP110: Basics of Coding and Computer Principals, Foundational Course
+#####COMP290: Basic Software Development Tools, Special Topics
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Tools and Programming Languages
+####Tools and Programs I am confident in using:
+######Python, Pandas, Scikit-Learn, Java, WPILIB, Docker, Git
+####Technical Skills:
+######Hardware Installation, Server Creation
