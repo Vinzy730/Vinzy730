@@ -1,16 +1,68 @@
 ## About Me
-I am a undergraduate student at **University of North Carolina Chapel Hill**. I am planning on majoring in *Computer Science* and exploring topics such as *cybersecurity*, *networking*, or *game development*.  I like creating backend, developing complex interactive systems, and managing my personal network. In my downtime I like to play games like Minecraft or Factorio, or read novels.
 
-### Classes
-#### Some classes I am currently attending and what they taught:
-##### COMP110: Basics of Coding and Computer Principals -> Foundational Course
-##### COMP290: Basic Software Development Tools, and Special Topics -> Git, and general knowledge of te industry
-##### Comp210: Data Structures and Analysis -> Time complexity, Space complexity, and how to cconstruct various data structures
-##### Comp301: Foundations of Programming -> Design Patterns, Software testing, OOP, and Professional Software Development 
-##### Comp211: Systems Fundamentals -> CLI, Data Representation, and Low-Level Programming management in C
+I'm an undergraduate Computer Science student at the **University of North Carolina at Chapel Hill**, and I live for disassembly: reverse engineering, binary exploitation, and understanding what code really does.
+I’m especially interested in **backend development**, **cybersecurity**, **networking**, and **systems programming**. I enjoy building reliable, low-level systems, automating infrastructure, and experimenting with my personal network and homelab-style setups.
 
-### Tools, Programming Languages, Skills
-#### Tools and Programs:
-###### Python, Pandas, Scikit-Learn, Java, WPILIB, Docker, Git, GDB/GEF, HTML/CSS, JavaScript
-#### Technical Skills:
-###### Hardware Installation, Server Creation, Network Management, Reverse Engineering, Binary Exploitation
+When I’m not debugging something, I’m usually playing games like *Minecraft* or *Factorio* or reading fiction.
+
+---
+
+## Relevant Coursework
+
+**COMP 110 – Intro to Programming & Foundations**  
+- Fundamental programming concepts, problem-solving, and software design basics.
+
+**COMP 210 – Data Structures & Analysis**  
+- Time and space complexity, implementation of core data structures (lists, trees, graphs, hash tables).
+
+**COMP 211 – Systems Fundamentals**  
+- Command-line/Linux workflows, data representation, memory, and low-level programming in C.
+
+**COMP 290 – Software Development Tools & Practices**  
+- Git workflows, collaboration, industry tooling, and software engineering best practices.
+
+**COMP 301 – Foundations of Programming**  
+- Object-oriented design, design patterns, software testing, and professional software development practices.
+
+---
+
+## Technologies
+
+**Languages & Libraries**  
+- Python (Pandas, scikit-learn)  
+- Java  
+- C  
+- JavaScript  
+- HTML/CSS  
+
+**Tools & Frameworks**  
+- Git & GitHub  
+- Docker  
+- GDB / GEF  
+- WPILib  
+
+**Systems & Networking**  
+- Linux / CLI  
+- Basic server setup and configuration  
+- Network configuration and management  
+
+---
+
+## Technical Skills
+
+- **Backend & Systems:** CLI-based workflows, low-level programming concepts, debugging with GDB/GEF  
+- **Networking & Infrastructure:** Basic server creation, network management, and troubleshooting  
+- **Security-Oriented Skills:** Reverse engineering, binary exploitation fundamentals  
+- **Hardware & Setup:** Hardware installation and system builds
+
+---
+
+## Contact
+
+- Based in North Carolina, USA  
+- Open to software engineering, backend, systems, and security-focused internship opportunities
+- Currently seeking Summer 2025 internships in backend, systems, or security-focused software roles.
+
+- Email: vinzy@ad.unc.edu  
+- LinkedIn: https://www.linkedin.com/in/https://www.linkedin.com/in/vincent-maynard-495259325
+- Résumé: [View my resume (PDF)](./Vincent_Resume.pdf)
