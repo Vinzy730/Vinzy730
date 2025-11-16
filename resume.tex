@@ -1,0 +1,192 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Vincent Maynard} \\ \vspace{1pt}
+    \small 336-681-3659 $|$ \href{mailto:vinzy@ad.unc.edu}{\underline{vinzy@ad.unc.edu}} $|$ 
+    \href{https://www.linkedin.com/in/vincent-maynard-495259325}{\underline{linkedin.com/in/vincent-maynard}} $|$
+    \href{https://github.com/Vinzy730}{\underline{github.com/Vinzy730}} \\
+    \small Cybersecurity-focused CS student interested in reverse engineering, binary exploitation, and CTF-style problem solving.
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of North Carolina at Chapel Hill}{Chapel Hill, NC}
+      {Bachelor of Science in Computer Science; GPA: 3.6/4.0}{Aug. 2024 -- May 2028}
+      \resumeItem{Relevant Coursework: Data Structures and Analysis, Systems Fundamentals, Foundations of Programming, Software Development Tools}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience \& Leadership}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Naval Cyber Warfare Training}{May 2025 -- Jun. 2025}
+      {United States Naval Academy}{Naval Academy, MD}
+      \resumeItemListStart
+        \resumeItem{Implemented a Python socket-based web scanner to probe lab HTTP servers for SQL injection vectors, sensitive files (e.g., \texttt{robots.txt}), and outdated configurations.}
+        \resumeItem{Reverse-engineered C binaries with Ghidra/x86 assembly and used GDB/GEF for runtime analysis and binary exploitation on Nightmare wargame challenges.}
+        \resumeItem{Applied offensive-security techniques in a Jeopardy-style CTF across reversing, pwn, crypto, web, and programming challenges under time pressure.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Ram's Hack Treasurer and Vice President}{Jan. 2025 -- Present}
+      {University of North Carolina at Chapel Hill}{Chapel Hill, NC}
+      \resumeItemListStart
+        \resumeItem{Manage club finances and funding requests; secured \$1,000+ in university support for conference travel, training resources, and paid Hack The Box subscriptions.}
+        \resumeItem{Compete on the club CTF team in events such as Duke CTF, Buckeye CTF, and university-hosted competitions across reversing, pwn, web, and crypto challenges.}
+        \resumeItem{Design and lead a recurring cybersecurity bootcamp teaching Linux CLI, Python scripting, networking basics, C programming, Ghidra, and GDB/GEF for reversing and pwn.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {NROTC Midshipman}{Aug. 2024 -- Present}
+      {University of North Carolina at Chapel Hill}{Chapel Hill, NC}
+      \resumeItemListStart
+        \resumeItem{Lead and mentor 15 fourth-class midshipmen in officership fundamentals, Navy/Marine Corps customs, and professional standards.}
+        \resumeItem{Serve as Fundraising Midshipman-in-Charge (MIC), coordinating volunteers and events to fund battalion operations and lab activities (e.g., sailing labs).}
+        \resumeItem{Participate in regular PT, leadership labs, and summer training across multiple warfare communities}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+
+    \resumeProjectHeading
+      {\textbf{Web Security Scraper} $|$ \emph{Python, sockets, BeautifulSoup (bs4)}}{Jun. 2025}
+      \resumeItemListStart
+        \resumeItem{Built a Python socket-based client to crawl HTTP endpoints and collect security-relevant responses in a controlled lab environment.}
+        \resumeItem{Analyzed pages and parameters to flag potential SQL injection vectors, exposed files (e.g., \texttt{robots.txt}), and outdated server headers.}
+        \resumeItem{Generated structured scan output to prioritize suspected vulnerable routes and misconfigurations for manual validation.}
+      \resumeItemListEnd
+
+    \resumeProjectHeading
+      {\textbf{Food Finder} $|$ \emph{Node.js, Express, MongoDB (Mongoose), JavaScript, HTML/CSS, Vercel}}{Oct. 2025}
+      \resumeItemListStart
+        \resumeItem{Developed an Akinator-style web app that infers user food preferences and recommends both a cuisine and restaurant.}
+        \resumeItem{Implemented a modular Node.js/Express backend with decision-tree logic and Mongoose models for user and restaurant data.}
+        \resumeItem{Deployed a responsive JavaScript/HTML/CSS frontend on Vercel for fast, mobile-friendly interaction.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, C, Java, JavaScript, HTML/CSS} \\
+     \textbf{Frameworks}{: Node.js/Express} \\
+     \textbf{Developer Tools}{: Git, Docker, GDB/GEF, Ghidra, VS Code, IntelliJ} \\
+     \textbf{Libraries}{: pandas, NumPy, Matplotlib, pwntools}
+    }}
+ \end{itemize}
+
+\end{document}
+
