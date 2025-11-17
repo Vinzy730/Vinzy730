@@ -7,6 +7,38 @@ When I’m not debugging something, I’m usually playing games like *Minecraft*
 
 ---
 
+## Security & Reversing Experience
+
+I spend a lot of time working on CTF-style challenges and documenting how they break.
+
+**Some of the things I’ve done:**
+
+- **Binary exploitation**
+  - Stack overflows via unsafe functions like `gets` and bad buffer layouts.
+  - `ret2win` exploits by overwriting saved return addresses.
+  - Using **GDB + GEF** to analyze stack frames, registers, and control flow.
+  - Unwinding layered Python `exec` calls by monkey-patching `exec` to log each layer.
+
+- **Reverse engineering**
+  - Analyzing ELF binaries with **Ghidra** to recover control flow and logic.
+  - Treating custom encryption as a black-box oracle and recovering flags via debugger automation.
+  - Working with calling conventions, function arguments, and buffer layouts.
+
+- **Web & file vulnerabilities**
+  - Abusing PHP file uploads with `.php.jpg` polyglots to get remote command execution.
+  - Exploiting weak ZIP encryption with **bkcrack** and known-plaintext attacks.
+  - Manipulating PNG headers/IHDR values in a hex editor and fixing CRCs with `pngcheck`.
+  - Building minimal PHP web shells and driving them with `curl`.
+
+- **Cryptography & cracking**
+  - Breaking RSA challenges by factoring `n` (FactorDB), computing λ(n), finding `d`, and decrypting `C^d mod n`.
+  - Cracking encrypted Office documents using `office2john.py` + **Hashcat** (`rockyou.txt`, mode 9600).
+  - Constructing MD5-collision PDFs by prepending known colliding prefixes to a base PDF.
+  - Solving monoalphabetic substitution ciphers with frequency analysis and pattern reasoning.
+  - Recovering rolling XOR keys from known file signatures (e.g. PNG magic bytes).
+
+---
+
 ## Projects
 
 ### Web Security Scraper  
@@ -22,6 +54,8 @@ When I’m not debugging something, I’m usually playing games like *Minecraft*
 - Developed an Akinator-style web app that infers user food preferences and recommends both a cuisine and a restaurant.  
 - Implemented a modular Node.js/Express backend with decision-tree logic and Mongoose models for user and restaurant data.  
 - Deployed a responsive JavaScript/HTML/CSS frontend on Vercel for fast, mobile-friendly interaction.
+
+*(More security tooling and CTF writeups are pinned on my profile.)*
 
 ---
 
